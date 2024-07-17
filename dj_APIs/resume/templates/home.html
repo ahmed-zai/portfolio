@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %} 
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-itmes-center" > 
+        <div class="circular-image-container"> 
+            <img class="circular-image" src="  {% static 'images/me.jpeg' %}" alt="Image">
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <h4 class="title"> Hi, my name is </h4>
+        <div class="name">
+            <h1> Ahmed Zairat</h1>
+            <h1>I am DevSecOps and software engineer</h1> 
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <div class="col-12 d-flex justify-content-center align-itmes-center">
+            <a href="https://www.linkedin.com/in/ahmed-zairat-5aa5941ab/" target"_blank" class="ms-3">
+                <img src="{% static 'images/linkedin.png' %}" alt="linkedin" width="80" height="80" class="social-links">
+            </a>
+            <a href="https://github.com/ahmed-zai" target"_blank" class="ms-3">
+                <img src="{% static 'images/github.png' %}" alt="github" width="80" height="80" class="social-links">
+            </a>
+           
+            <a href="https://hub.docker.com/u/ahmedzairat" target"_blank" class="ms-3">
+                <img src="{% static 'images/Docker.png' %}" alt="dockerhub" width="80" height="80" class="social-links">
+            </a>
+        </div>
+    </div>
+</div>
+
+{% endblock content1 %}

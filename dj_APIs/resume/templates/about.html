@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %} 
+<div class="row my-5">
+    <div class="col-4 d-flex justify-content-center align-itmes-center">
+        <img src="{% static 'images/me.jpeg' %}" alt="image" class= " circular-image about " style=" border-radius: 50%;">
+    </div>
+    <div class="col-7 text-left text-light">
+        <h2> Hello!</h2>
+        <p class="fs-5"> my name is ahmed zairat, I am software engineer and devSecOps, I git my baccalaureate science physics in 2020<br>
+            and I started my university studies at the  same year in computer science I didn't get my certificate graduate yet, but I had nice experience at univesity ,<br>
+             I got  complete courses in software and DevOps from IBM and Google and Meta online, you can know more about my education in certificates part or click on the link below 
+
+        </p>
+        <p class="fs-5"> and here 
+        </p>
+
+    </div>
+</div>
+<div class="row my-2">
+    <h2 class="text-center" style="color: #4fffb0"> my tech stack </h2>
+    <h1 class="dev text-center"  style="color: #4fffb0"> :Dev</h1>
+    <div class="d-flex justify-content-around align-itmes-center">
+        <img src="{% static 'images/C.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/html.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/css.png' %}" alt="html"  class="img">
+        
+        <img src="{% static 'images/Python.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/sql.jpeg' %}" alt="html"  class="img">
+        <img src="{% static 'images/mong.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/dj.jpeg' %}" alt="html"  class="img">
+    </div>
+    <h1 class="sec text-center"  style="color: #4fffb0"> :Sec </h1>
+    <div class="d-flex justify-content-around align-itmes-center">
+        <img src="{% static 'images/burp.jpeg' %}" alt="html"  class="img">
+        <img src="{% static 'images/sqlmap.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/nmap.jpg' %}" alt="html"  class="img">
+        <img src="{% static 'images/nikto.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/wpscan.jpg' %}" alt="html"  class="img">
+    </div>
+    <h1 class="Ops text-center"  style="color: #4fffb0"> :Ops </h1>
+    <div class="d-flex justify-content-around align-itmes-center">
+        <img src="{% static 'images/github.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/docker.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/Kubernetes.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/postman.png' %}" alt="html"  class="img">
+        <img src="{% static 'images/ubuntu.png' %}" alt="html"  class="img">
+    </div>
+</div>
+
+{% endblock content1 %}
